@@ -30,8 +30,8 @@ public:
 int main()
 {
     Solution s;
-    int n[] = {3, 2, 4};
-    int target = 6;
+    int n[] = {2, 2, 3, 4, 5};
+    int target = 5;
     vector<int> nums(n, n + sizeof(n) / sizeof(int));
     vector<int> result = s.twoSum(nums, target);
     for (int i = 0; i < result.size(); i++)
